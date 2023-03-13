@@ -3,7 +3,7 @@ import cvzone
 from cvzone.FaceMeshModule import FaceMeshDetector
 from cvzone.PlotModule import LivePlot
  
-cap = cv2.VideoCapture("/Users/abdullahalmamun/Desktop/Projects/Exercise/Eye_blink_counter/2_c_hi.mov")
+cap = cv2.VideoCapture("/Users/abdullahalmamun/Desktop/Projects/Eye_blink_counter/2_c_hi.mov")
 detector = FaceMeshDetector(maxFaces=2)
 plotY = LivePlot(640, 360, [20, 50], invert=True)
  
